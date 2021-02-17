@@ -77,7 +77,7 @@ class MyHomePage extends StatelessWidget {
           Column(
             children: transactions.map((tx) {
               return Card(
-                color: Colors.amber[100],
+                color: Colors.cyan[100],
                 elevation: 10,
                 child: Row(
                   children: <Widget>[
@@ -88,7 +88,7 @@ class MyHomePage extends StatelessWidget {
                       ),
                       decoration: BoxDecoration(
                         border: Border.all(
-                          color: Colors.orange,
+                          color: Colors.indigo,
                           width: 2,
                         ),
                       ),
@@ -98,7 +98,7 @@ class MyHomePage extends StatelessWidget {
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 16,
-                          color: Colors.orange,
+                          color: Colors.indigo,
                         ),
                       ),
                     ),
