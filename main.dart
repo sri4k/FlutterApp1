@@ -58,7 +58,7 @@ class MyHomePage extends StatelessWidget {
         children: <Widget>[
           Container(
             child: Card(
-              color: Colors.indigo,
+              color: Colors.blue,
               child: Container(
                 width: 150,
                 height: 25,
@@ -67,7 +67,7 @@ class MyHomePage extends StatelessWidget {
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 20,
-                    color: Colors.amber,
+                    color: Colors.white,
                   ),
                 ),
               ),
