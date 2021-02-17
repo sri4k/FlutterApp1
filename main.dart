@@ -57,21 +57,13 @@ class MyHomePage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
           Container(
-            child: Card(
-              color: Colors.blue,
-              child: Container(
-                width: 150,
-                height: 25,
-                child: Text(
-                  'TRANSACTIONS',
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 20,
-                    color: Colors.white,
-                  ),
-                ),
+            child: Text(
+              'TRANSACTIONS',
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 20,
+                color: Colors.blue,
               ),
-              elevation: 20,
             ),
           ),
           Column(
